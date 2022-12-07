@@ -14,18 +14,12 @@ The application we will use in this hack has three components, as the following 
 
 ![app architecture](./images/app_arch.png)
 
-You can fulfill the challenge with either one of these two options:
-
-1. Using your local Docker installation:
-  - Deploy the **database** as a SQL Server as container in your local machine
-  - Deploy the **API** image in your local machine out of your ACR (you will need a container runtime in your local machine).
-  - Make sure that the API can access the database (you can test calling the API endpoints)
-  - Deploy the **web** frontend that will connect to the API.
-2. Using Azure Container Instances (if you do not have a local Docker installation):
+Using Azure Container Instances:
   - Deploy the **database** as an Azure SQL Database
   - Deploy the **API** image as Azure Container Instance in Azure
   - Make sure that the API can connect to the database
   - Deploy the **web** frontend that will connect to the API
+ 
 
 For both you should get in the web frontend something like the following. If the frontend is able to get the database version through the API it means that the whole chain is working (web -> api -> database):
 
