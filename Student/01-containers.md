@@ -35,12 +35,6 @@ Here a sample screenshot of what it should look like:
 
 Note the two links at the bottom of the page in the picture above will not work at this stage yet.
 
-## Advanced Challenges (Optional)
-
-- Use an open source database (such as mysql, MariaDB or Postgres)
-- If you used your local Docker installation, complete the challenge using Azure Container Instances
-- If you used Azure Container Instances, complete the challenge using your local Docker installation
-
 ## Learning Resources
 
 These docs might help you achieving these objectives:
