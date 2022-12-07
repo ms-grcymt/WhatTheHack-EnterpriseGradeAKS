@@ -13,7 +13,9 @@ You need to fulfill these requirements to complete this challenge:
 - Deploy an AKS cluster integrated in an existing VNet (you need to create the VNet in advance)
 - Deploy as few nodes as possible
 - Deploy an Azure SQL Database if you did not have one from the previous challenge
-- Deploy the API and Web containers, expose them over an ingress controller (consider the Application Gateway Ingress Controller, although it is not required). Make sure the links in the section `Direct access to API` of the web page exposed by the Web container are working, as well as the links in the Web menu bar (`Info`, `HTML Healthcheck`, `PHPinfo`, etc)
+- Make sure the AKS cluster does not have **any** public IP address
+- Configure the Azure SQL Database so that it is only reachable over a private IP address
+- Deploy the API and Web containers, expose them over an ingress controller (NGINX is suggested). Make sure the links in the section `Direct access to API` of the web page exposed by the Web container are working, as well as the links in the Web menu bar (`Info`, `HTML Healthcheck`, `PHPinfo`, etc)
 
 ## Success Criteria
 
@@ -22,8 +24,6 @@ You need to fulfill these requirements to complete this challenge:
 
 ## Advanced Challenges (Optional)
 
-- Make sure the AKS cluster does not have **any** public IP address
-- Configure the Azure SQL Database so that it is only reachable over a private IP address
 - Use an open source managed database, such as Azure SQL Database for MySQL or Azure Database for Postgres
 
 ## Learning Resources
