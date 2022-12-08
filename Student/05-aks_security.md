@@ -35,4 +35,4 @@ These docs might help you achieving these objectives:
 - [Open Policy Agent](https://www.openpolicyagent.org/)
 - [Kubernetes Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [AKS Overview](https://docs.microsoft.com/azure/aks/)
-- [Use TLS with an Ingress Controller in AKS](https://docs.microsoft.com/azure/aks/](https://learn.microsoft.com/en-us/azure/aks/ingress-tls?tabs=azure-cli)
+- [Use TLS with an Ingress Controller in AKS](https://learn.microsoft.com/en-us/azure/aks/ingress-tls/)
