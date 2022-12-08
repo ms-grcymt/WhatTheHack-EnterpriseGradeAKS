@@ -22,7 +22,6 @@ You need to fulfill these requirements to complete this challenge:
 - Participants can demonstrate that the network security controls are in place
 - Application workloads are physically separated (in different nodes) from control plane workloads
 - Access to the application via the ingress controller is carried out over SSL
-- AAD authentication is required before being able to run any kubectl operation on the cluster
 
 ## Advanced Challenges (Optional)
 - Kubernetes administrators must authenticate to the cluster using their AAD credentials
